@@ -1,0 +1,56 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.card{
+
+  margin: 20px 0px 0 60px;
+  border: 1px solid #cccc;
+  width:380px;
+  height:600px;
+  border-radius: 8px;
+
+}
+
+img{
+  width: 100%;
+  height: 260px;
+  border-radius: 3px;
+}
+
+h1{
+  font-size: 30px;
+}
+
+p{
+  font-size: 20px;
+}
+
+.sezione{
+  padding: 10px;
+}
+
+li {
+  font-size: 20px;
+  border-top: 1px solid #cccc;
+  margin: 10px 0;
+  padding-top: 10px;
+  list-style-type: none;
+  padding-left: 20px; 
+}
+li:last-child {
+  border-bottom: 1px solid #cccc;
+  margin-bottom: 0;
+  padding-bottom: 10px;
+}
+
+.button{
+  margin: 25px 0 0 10px;
+  font-size: 20px;
+
+}
+a{
+  margin-right: 15px;
+}

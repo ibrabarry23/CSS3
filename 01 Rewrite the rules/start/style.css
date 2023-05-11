@@ -10,8 +10,7 @@ body {
 }
 :root{
 
-    --body-color: #011212;
-
+    --body-color: #011212
     --ball-color:#ff8800;
     --radius-ball:50px;
     --ball-height: 100px;
