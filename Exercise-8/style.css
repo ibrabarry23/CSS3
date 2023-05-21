@@ -5,16 +5,16 @@
 }
 /* non ho capito come spaziare glie elmenti con justify content non funziona  */
 
-body {
+main {
   display: flex;
-  width: 60em;
   margin: 0 auto;
-  justify-content: space-evenly;
+  justify-content: space-between;
 }
 
 section {
   padding: 2em;
   margin: 1em;
+  
 }
 
 #green {
