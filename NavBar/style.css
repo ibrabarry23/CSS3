@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+nav{
+    display: flex;
+    width: 100%;
+    position: relative;
+    justify-content: space-between ;
+    text-align: center;
+    padding: 15px 30px;
+    background-color: rgb(22, 22, 22);
+}
+nav .logo{
+    color: white;
+    font-size: 30px;
+    font-weight: 600;
+    cursor: pointer;
+}
+nav ul{
+    display: flex;
+    list-style-type: none;
+    text-align: center;
+    margin: auto 0;
+    padding-right: 500px;
+
+}
+
+nav ul li{
+    margin: 9px 2px ;
+}
+
+nav ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 8px 10px;
+    color: white;
+}
+
+
+  
+   li:nth-child(2) a {
+    color:rgba(255, 255, 255, 0.7);
+  }
+  
+   li:nth-child(3) a {
+    color: rgba(255, 255, 255, 0.659);
+  }
+  
+   li:nth-child(4) a {
+    color:rgba(255, 255, 255, 0.212);
+  }
+  
+
+
+nav .searchbar{
+    display: flex;
+    margin: auto 0;
+    height: 45px;
+    line-height: 35px;
+
+}
+
+nav .searchbar input{
+    /* border: none; */
+    outline: none;
+    height: 100%;
+    padding: 0 10px;
+    font-size: 15px;
+    border-radius: 5px;
+}
+#txt{
+    width: 280px;
+    margin-right:10px;
+}
+#submit{
+    border: 1px solid green;
+    width: 80px;
+    background-color: transparent;
+    color: white;
+
+
+}
+
+#submit:hover{
+    color: green;
+}
+
+
+ nav .menu{
+    position: relative;
+    margin: auto ;
+
+}
+nav .menu i{
+    position: absolute;
+    color: black;
+    font-size: 30px;
+    display: none;
+
+}
+
+
+@media screen and  (max-width: 768px) {
+    nav{
+        padding: 0;
+        display: block;
+    }
+    body{
+        overflow: hidden;
+
+    }
+
+    nav .logo{
+        display: inline-block;
+        padding: 15px 30px;
+    }
+    nav .searchbar{
+        display: none;
+    }
+    nav ul{
+        display: none;
+    }
+    nav .menu #bar{
+        display: block;
+        bottom: 15px;
+        right: 20px;
+        color: white;
+    }
+  }
+  

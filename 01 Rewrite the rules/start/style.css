@@ -9,7 +9,6 @@ body {
     border-radius: var(--radius-ball);
 }
 :root{
-
     --body-color: #011212
     --ball-color:#ff8800;
     --radius-ball:50px;
