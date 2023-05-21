@@ -77,7 +77,7 @@
 
 }
   
-  /*mobile*/
+
   @media screen and (max-width:350px){
     body {
         flex-direction: column;
@@ -87,8 +87,7 @@
      
 
   }
-  /*tablet*/
-  /*tablet*/
+ 
 @media screen and (max-width: 768px) {
     body {
       flex-direction: row;
