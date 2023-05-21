@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: sans-serif;
+}
+
+body {
+    background-color: #2e338c;
+    overflow: hidden;
+}
+
+#sidebar {
+    position: absolute;
+    left: 0;
+    width: 200px;
+    height: 100%;
+    background-color:#f5f3ee;
+    display: flex;
+    flex-flow: column wrap;
+}
+
+ #myAccount {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 16px;
+}
+
+ul {
+    flex: 1;
+}
+
+ul li a {
+    color: #2b2b2b;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+}
+
+ul li {
+    padding: 20px 20px;
+    text-align: center;
+}
+
+ul li:first-child {
+    margin-top: 40px;
+}
+
+a:hover{
+    height: 100%;
+    color:  #2b2bb2 ;
+    transition: 3s;
+ 
+   
+}
+
+.placeholder {
+    align-self: center;
+    width: 40px;
+    height: 40px;
+    margin: 15px;
+}
+
+#logo {
+    width: 70px;
+    align-self: center;
+    height: auto;
+    margin: 10px;
+
+
+}
+
+#myAvatar {
+    width: 35px;
+}
+
+#logiName {
+    color:black ;
+}
