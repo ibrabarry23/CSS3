@@ -6,7 +6,6 @@
 /* non ho capito come spaziare glie elmenti con justify content non funziona  */
 
 main {
-  display: flex;
   margin: 0 auto;
   justify-content: space-between;
 }

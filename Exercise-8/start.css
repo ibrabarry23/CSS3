@@ -5,37 +5,41 @@
 }
 
 body {
-    display: flex;
-    justify-content:space-between;
+    /* justify-content:space-between; */
     height: 100vh;
+  }
+  main{
+    display: flex;
+    height: 100%;
   }
   
   #yellow {
     order: 1;
-    flex: 1;
+    /* flex: 1; */
     
   }
   #green {
     order: 3;
-    flex: 1;
+    /* flex: 1; */
 
   }
   
   #orange {
     order: 4;
-    flex: 10;
+    flex: 1;
+    /* flex: 10; */
 
 
   }
   
   #red {
       order: 2;
-     flex: 1;
+     /* flex: 1; */
 
     }
   
   #blue {
       order: 5 ;
-    flex: 1;
+    /* flex: 1; */
 
     }
