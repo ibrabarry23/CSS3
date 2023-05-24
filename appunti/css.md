@@ -50,3 +50,7 @@ Questo creerà una griglia con tre colonne e due righe, ognuna delle quali avrà
 
 # 2. Flexbox
 Flexbox detto anche Flexible Box Module è un sistema di layout CSS.
+
+$$
+x^2-3x\frac{5x}{2}=\sqrt{3x-5}
+$$
