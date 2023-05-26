@@ -108,14 +108,11 @@ nav .menu i{
         display: block;
     }
 
-    body{
-        overflow: hidden;
-
-    }
-
-    nav .logo{
-        display: inline-block;
-        padding: 15px 30px;
+     .logo{
+        display: absolute;
+        padding: 15px ;
+        left: 2rem;
+        position: relative;
     }
     nav .searchbar{
         display: none;
@@ -124,9 +121,10 @@ nav .menu i{
         display: none;
     }
     nav .menu #bar{
+        position: absolute;
         display: block;
-        bottom: 15px;
-        right: 20px;
+        bottom: 1rem;
+        right: 2rem;
         color: white;
     }
   }
